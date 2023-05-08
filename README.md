@@ -43,7 +43,7 @@
 
 
 - 로그인,회원가입
-    - Bcrypt 암호화와 JsonWebToken 인증을 적용한 회원가입, 로그인 기능 API 구현
+    - [Bcrypt 암호화](https://github.com/Sangwon-cho/1st-project-HealthEat-backend/blob/fe3c8e3694451d1c80589caff01e6c0239b79b4a/src/services/userService.js#L8-L18)와 [JsonWebToken 인증을 적용한 회원가입](https://github.com/Sangwon-cho/1st-project-HealthEat-backend/blob/fe3c8e3694451d1c80589caff01e6c0239b79b4a/src/util/auth.js#L6-L45), 로그인 기능 API 구현
 - 제품 전체 페이지
     - 사용자의 검색기능 향상을 위해 filtering과 sorting 기능 동시 구현
     - 페이지 로딩 속도 향상을 위한 페이지네이션 기능 구현
